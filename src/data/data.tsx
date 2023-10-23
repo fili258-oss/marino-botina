@@ -1,6 +1,5 @@
 import {
-    TfiHome,
-    TfiUser,
+    TfiHome,    
     TfiFolder,
     TfiIdBadge,
     TfiBook
