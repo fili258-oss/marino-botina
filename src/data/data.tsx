@@ -29,7 +29,7 @@ export const dataNavbar = (navItem: number): NavbarType => {
 
     return {
         logo: {
-            title: 'MB',
+            title: 'MB DEV',
           },
           nav: [
             {

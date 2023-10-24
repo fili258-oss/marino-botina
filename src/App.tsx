@@ -10,7 +10,7 @@ import Contact from './screens/Contact';
 
 function App() { 
   return (
-    <div className='grid grid-cols-[100px_1fr] w-screen h-screen'>
+    <div className='grid grid-cols-[83px_1fr] w-screen h-screen'>
       <Navbar />
       <section>
           <Routes>
