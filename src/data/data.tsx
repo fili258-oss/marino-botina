@@ -5,6 +5,7 @@ import {
     TfiBook
 
 } from 'react-icons/tfi';
+/* import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; */
 
 type NavItemType = {
     id: number;
