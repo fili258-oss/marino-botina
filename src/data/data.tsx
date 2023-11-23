@@ -1,11 +1,11 @@
-import {
-    TfiHome,    
-    TfiFolder,
-    TfiIdBadge,
-    TfiBook
-
-} from 'react-icons/tfi';
-/* import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; */
+import { FaHome } from "react-icons/fa";
+import { 
+  BsEnvelopeAtFill,
+  BsFillPersonLinesFill,
+  BsFillFolderFill,
+  BsFillPersonCheckFill,
+  BsBriefcaseFill,
+   } from "react-icons/bs";
 
 type NavItemType = {
     id: number;
@@ -37,8 +37,8 @@ export const dataNavbar = (navItem: number): NavbarType => {
               id: 1,
               title: 'Inicio',
               icon: (
-                <TfiHome
-                  className={navItem === 1 ? 'text-app-greenprimary-400 w-5 h-5' : 'w-5 h-5'}
+                <FaHome
+                  className={navItem === 1 ? 'text-app-greenprimary-400 w-[37px] h-[37px]' : 'w-[37px] h-[37px]' }
                 />
               ),
               to: '/',
@@ -47,8 +47,8 @@ export const dataNavbar = (navItem: number): NavbarType => {
               id: 2,
               title: 'Sobre mi',
               icon: (
-                <TfiIdBadge
-                  className={navItem === 2 ? 'text-app-greenprimary-400 w-5 h-5' : 'w-5 h-5'}
+                <BsFillPersonLinesFill
+                  className={navItem === 2 ? 'text-app-greenprimary-400 w-[37px] h-[37px]' : 'w-[37px] h-[37px]'}
                 />
               ),
               to: '/aboutme',
@@ -57,8 +57,8 @@ export const dataNavbar = (navItem: number): NavbarType => {
               id: 3,
               title: 'Proyectos',
               icon: (
-                <TfiFolder
-                  className={navItem === 3 ? 'text-app-greenprimary-400 w-5 h-5' : 'w-5 h-5'}
+                <BsFillFolderFill
+                  className={navItem === 3 ? 'text-app-greenprimary-400 w-[37px] h-[37px]' : 'w-[37px] h-[37px]'}
                 />
               ),
               to: '/projects',
@@ -67,8 +67,8 @@ export const dataNavbar = (navItem: number): NavbarType => {
               id: 4,
               title: 'habilidades',
               icon: (
-                <TfiBook
-                  className={navItem === 4 ? 'text-app-greenprimary-400 w-5 h-5' : 'w-5 h-5'}
+                <BsFillPersonCheckFill 
+                  className={navItem === 4 ? 'text-app-greenprimary-400 w-[37px] h-[37px]' : 'w-[37px] h-[37px]'}
                 />
               ),
               to: '/skills',
@@ -77,8 +77,8 @@ export const dataNavbar = (navItem: number): NavbarType => {
               id: 5,
               title: 'Experiencia',
               icon: (
-                <TfiBook
-                  className={navItem === 5 ? 'text-app-greenprimary-400 w-5 h-5' : 'w-5 h-5'}
+                <BsBriefcaseFill 
+                  className={navItem === 5 ? 'text-app-greenprimary-400 w-[37px] h-[37px]' : 'w-[37px] h-[37px]'}
                 />
               ),
               to: '/experience',
@@ -87,8 +87,8 @@ export const dataNavbar = (navItem: number): NavbarType => {
               id: 6,
               title: 'Contacto',
               icon: (
-                <TfiBook
-                  className={navItem === 6 ? 'text-app-greenprimary-400 w-5 h-5' : 'w-5 h-5'}
+                <BsEnvelopeAtFill 
+                  className={navItem === 6 ? 'text-app-greenprimary-400 w-[37px] h-[37px]' : 'w-[37px] h-[37px]'}
                 />
               ),
               to: '/contact',
