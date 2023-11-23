@@ -18,7 +18,7 @@ const Header = () => {
             >
                 {languageData().map(({ code, label }) => (
                     <option key={code} value={code}>
-                        {label}
+                        {t (label)}
                     </option>
                 ))}
             </select>
