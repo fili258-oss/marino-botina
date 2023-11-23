@@ -1,7 +1,5 @@
 import { Tab } from '@headlessui/react'
-import { 
-    BsBookHalf, 
-    BsBriefcaseFill,
+import {     
     BsFillCalendar2CheckFill
      } from "react-icons/bs";
 
@@ -9,11 +7,11 @@ const Experience = () => {
     return (
         <article className="grid col bg-app-greenprimary-50 pt-32 px-9 overflow-y-auto h-screen">
             <h2 className="font-inter font-bold text-[4rem] text-app-heading">Mi experiencia</h2>
-            <hr></hr>
+            <hr className="mb-4"></hr>
             <Tab.Group>
                 <Tab.List className="text-center">
-                <Tab className="ml-3 p-3 text-base text-app-gray-500 border-b focus:border-app-greenprimary-400 border-app-gray-100 transition duration-200 ease-in hover:text-app-greenprimary-400 focus:text-app-greenprimary-400 focus:outline-none font-bold">Acádemica</Tab>
-                    <Tab className="ml-3 p-3 text-base text-app-gray-500 border-b focus:border-app-greenprimary-400 border-app-gray-100 transition duration-200 ease-in hover:text-app-greenprimary-400 focus:text-app-greenprimary-400 focus:outline-none font-bold">Laboral</Tab>                    
+                <Tab className="ml-3 p-3 text-[30px] text-base text-app-gray-500 border-b focus:border-app-greenprimary-400 border-app-gray-100 transition duration-200 ease-in hover:text-app-greenprimary-400 focus:text-app-greenprimary-400 focus:outline-none font-semibold">Acádemica</Tab>
+                    <Tab className="ml-3 p-3 text-[30px] text-base text-app-gray-500 border-b focus:border-app-greenprimary-400 border-app-gray-100 transition duration-200 ease-in hover:text-app-greenprimary-400 focus:text-app-greenprimary-400 focus:outline-none font-semibold">Laboral</Tab>                    
                 </Tab.List>
                 <Tab.Panels className="p-4 mb-20">
                     <Tab.Panel>
