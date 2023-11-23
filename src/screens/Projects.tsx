@@ -11,14 +11,14 @@ import { Navigation } from 'swiper/modules';
 
 const Projects = () => {
     return (
-        <article className="grid col bg-app-greenprimary-50 pt-36 px-9 overflow-auto">
+        <article className="grid col bg-app-greenprimary-50 pt-32 px-9 overflow-y-auto h-screen">
             <h2 className="font-inter font-bold text-[4rem] text-app-heading">Proyectos</h2>
             <hr></hr>
             
                            
-        <Swiper navigation={true} modules={[Navigation]} className="w-[100%] px-6">
+        <Swiper navigation={true} modules={[Navigation]} className="w-[100%] px-6 mt-10">
             <SwiperSlide>
-            <ul className="grid cols-1 items-center justify-items-center gap-y-10 py-14 px-10 ">
+            <ul className="grid cols-1 items-center justify-items-center py-4 px-10 ">
                     <img className="w-[80%] rounded-xl  sm:h-48 object-cover" src={ PortalHeroica }  alt="article" />
                     <li className="py-2">
                     <h3 className="text-[18px] font-semibold text-slate-800">Heroica</h3>
@@ -31,7 +31,7 @@ const Projects = () => {
             </ul>                
             </SwiperSlide>
             <SwiperSlide>
-            <ul className="grid cols-1 items-center justify-items-center gap-y-10 py-14 px-10 ">
+            <ul className="grid cols-1 items-center justify-items-center py-14 px-10 ">
                     <img className="w-[80%] rounded-xl  sm:h-48 object-cover" src={ Unimetrics }  alt="article" />
                     <li className="py-2">
                     <h3 className="text-[18px] font-semibold text-slate-800">Software Unimetrics UCC</h3>

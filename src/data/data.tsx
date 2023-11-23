@@ -38,7 +38,7 @@ export const dataNavbar = (navItem: number): NavbarType => {
               title: 'Inicio',
               icon: (
                 <FaHome
-                  className={navItem === 1 ? 'text-app-greenprimary-400 w-[37px] h-[37px]' : 'w-[37px] h-[37px]' }
+                  className={navItem === 1 ? 'text-app-greenprimary-400 w-[32px] h-[32px]' : 'w-[32px] h-[32px]' }
                 />
               ),
               to: '/',
@@ -48,7 +48,7 @@ export const dataNavbar = (navItem: number): NavbarType => {
               title: 'Sobre mi',
               icon: (
                 <BsFillPersonLinesFill
-                  className={navItem === 2 ? 'text-app-greenprimary-400 w-[37px] h-[37px]' : 'w-[37px] h-[37px]'}
+                  className={navItem === 2 ? 'text-app-greenprimary-400 w-[32px] h-[32px]' : 'w-[32px] h-[32px]'}
                 />
               ),
               to: '/aboutme',
@@ -58,7 +58,7 @@ export const dataNavbar = (navItem: number): NavbarType => {
               title: 'Proyectos',
               icon: (
                 <BsFillFolderFill
-                  className={navItem === 3 ? 'text-app-greenprimary-400 w-[37px] h-[37px]' : 'w-[37px] h-[37px]'}
+                  className={navItem === 3 ? 'text-app-greenprimary-400 w-[32px] h-[32px]' : 'w-[32px] h-[32px]'}
                 />
               ),
               to: '/projects',
@@ -68,7 +68,7 @@ export const dataNavbar = (navItem: number): NavbarType => {
               title: 'habilidades',
               icon: (
                 <BsFillPersonCheckFill 
-                  className={navItem === 4 ? 'text-app-greenprimary-400 w-[37px] h-[37px]' : 'w-[37px] h-[37px]'}
+                  className={navItem === 4 ? 'text-app-greenprimary-400 w-[32px] h-[32px]' : 'w-[32px] h-[32px]'}
                 />
               ),
               to: '/skills',
@@ -78,7 +78,7 @@ export const dataNavbar = (navItem: number): NavbarType => {
               title: 'Experiencia',
               icon: (
                 <BsBriefcaseFill 
-                  className={navItem === 5 ? 'text-app-greenprimary-400 w-[37px] h-[37px]' : 'w-[37px] h-[37px]'}
+                  className={navItem === 5 ? 'text-app-greenprimary-400 w-[32px] h-[32px]' : 'w-[32px] h-[32px]'}
                 />
               ),
               to: '/experience',
@@ -88,7 +88,7 @@ export const dataNavbar = (navItem: number): NavbarType => {
               title: 'Contacto',
               icon: (
                 <BsEnvelopeAtFill 
-                  className={navItem === 6 ? 'text-app-greenprimary-400 w-[37px] h-[37px]' : 'w-[37px] h-[37px]'}
+                  className={navItem === 6 ? 'text-app-greenprimary-400 w-[32px] h-[32px]' : 'w-[32px] h-[32px]'}
                 />
               ),
               to: '/contact',

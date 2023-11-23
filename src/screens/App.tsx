@@ -18,7 +18,7 @@ function App() {
       <Navbar />    
       <section className='grid grid-cols-[50%_1fr] '>
       
-          <article className="grid col items-center justify-center ">  
+          <article className="grid cols items-center justify-center ">  
             <ParticlesBackground/>              
               <img src={ HomeMarino} className="h-[469px] w-[469px]" alt="Imagen Perfil" />
           </article>

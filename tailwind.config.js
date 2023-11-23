@@ -9,6 +9,7 @@ export default {
       colors: {
         'app-sections': '#0a192f',
         'app-heading':'#141416',
+        'app-white': '#ffffff',
         'app-greenprimary': {
           '50': '#effaf2',
           '100': '#d7f4dc',
