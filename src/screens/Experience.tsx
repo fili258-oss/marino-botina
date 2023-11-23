@@ -1,7 +1,9 @@
 import { Tab } from '@headlessui/react'
 import {     
-    BsFillCalendar2CheckFill
+    BsFillCalendar2CheckFill,
+    BsBriefcaseFill
      } from "react-icons/bs";
+     import { FaRocket } from "react-icons/fa";
 
 const Experience = () => {
     return (
@@ -9,9 +11,9 @@ const Experience = () => {
             <h2 className="font-inter font-bold text-[4rem] text-app-heading">Mi experiencia</h2>
             <hr className="mb-4"></hr>
             <Tab.Group>
-                <Tab.List className="text-center">
-                <Tab className="ml-3 p-3 text-[30px] text-base text-app-gray-500 border-b focus:border-app-greenprimary-400 border-app-gray-100 transition duration-200 ease-in hover:text-app-greenprimary-400 focus:text-app-greenprimary-400 focus:outline-none font-semibold">Acádemica</Tab>
-                    <Tab className="ml-3 p-3 text-[30px] text-base text-app-gray-500 border-b focus:border-app-greenprimary-400 border-app-gray-100 transition duration-200 ease-in hover:text-app-greenprimary-400 focus:text-app-greenprimary-400 focus:outline-none font-semibold">Laboral</Tab>                    
+                <Tab.List className="flex flex-row ">
+                    <Tab className="basis-1/2 inline-flex ml-3 p-3 text-[24px] text-app-gray-500 border-b focus:border-app-greenprimary-400 border-app-gray-100 transition duration-200 ease-in hover:text-app-greenprimary-400 focus:text-app-greenprimary-400 focus:outline-none font-semibold"><FaRocket className="mr-3 mt-2 text-app-gray-600" />Acádemica</Tab>
+                    <Tab className="basis-1/2 inline-flex ml-3 p-3 text-[24px] text-app-gray-500 border-b focus:border-app-greenprimary-400 border-app-gray-100 transition duration-200 ease-in hover:text-app-greenprimary-400 focus:text-app-greenprimary-400 focus:outline-none font-semibold"><BsBriefcaseFill className="mr-3 mt-2 text-app-gray-600" />Laboral</Tab>                    
                 </Tab.List>
                 <Tab.Panels className="p-4 mb-20">
                     <Tab.Panel>
