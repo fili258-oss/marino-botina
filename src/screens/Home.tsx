@@ -1,6 +1,7 @@
 import { BsArrowRight, BsFillPersonCheckFill } from "react-icons/bs";
 import { NavLink } from 'react-router-dom';
 import { useNavbarStore } from '../store/navbarStore';
+import Typewriter from 'typewriter-effect';
 
 const Home = () => {
     const { selectedItemNavbar } = useNavbarStore();
@@ -8,7 +9,17 @@ const Home = () => {
                     
         <article className="grid col bg-app-greenprimary-50 pt-36 px-9">
             <h2 className="font-inter font-bold text-[4rem] text-app-heading">¡Hola, soy Marino!</h2>
-            <h3 className="font-inter font-bold text-[32px] text-app-greenprimary-400">Desarrollo de aplicaciones web|</h3>
+            <h3 className="font-inter font-bold text-[32px] text-app-greenprimary-400">
+            <Typewriter 
+                options={{
+                    strings: ['Desarrollo de aplicaciones web', 'Diseño y maquetación de interfaces de usuario','Administración de bases de datos'],
+                    autoStart: true,
+                    loop: true,
+                    
+                }} 
+            />
+            </h3>
+            
             <p>Soy ingeniero de software, amante del deporte y los viajes en moto. Me dedico a crear aplicaciones que viven en la web, con tecnologías como: PHP, Laravel, Livewire, Django, React JS, Angular y Vite JS.</p>
             
             <ul className="flex flex-row text-app-greenprimary-50 gap-3">
