@@ -7,12 +7,12 @@ const Home = () => {
     const { selectedItemNavbar } = useNavbarStore();
     return (
                     
-        <article className="grid col bg-app-greenprimary-50 pt-36 px-9">
-            <h2 className="font-inter font-bold text-[4rem] text-app-heading">¡Hola, soy Marino!</h2>
+        <section className="grid rows bg-app-greenprimary-50 pt-36 px-9">
+            <h2 className="font-inter font-bold text-[4rem]  text-app-heading">¡Hola, soy Marino!</h2>
             <h3 className="font-inter font-bold text-[32px] text-app-greenprimary-400">
             <Typewriter 
                 options={{
-                    strings: ['Desarrollo de aplicaciones web', 'Diseño y maquetación de interfaces de usuario','Administración de bases de datos'],
+                    strings: ['Desarrollo frontend con Angular', 'Desarrollo backend con Laravel','Administración de bases de datos'],
                     autoStart: true,
                     loop: true,
                     
@@ -48,7 +48,7 @@ const Home = () => {
                     </NavLink>
                 </li>                                
             </ul>
-        </article>
+        </section>
         
     )
 }

@@ -2,7 +2,7 @@ import { BsGeoAltFill, BsGithub, BsEnvelopeFill } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
 const Contact = () => {    
     return (
-        <article className="grid col bg-app-greenprimary-50 pt-36 px-9 overflow-auto">
+        <section className="grid rows bg-app-greenprimary-50 pt-36 px-9 overflow-auto">
             <h2 className="font-inter font-bold text-[4rem] text-app-heading">Contacto</h2>
             <hr></hr>
             <p>Gracias por visitarme, si crees que mis habilidades pueden contribuir a tu proyecto o empresa, puedes contactarme a través de los siguientes links de contacto: </p>                
@@ -17,7 +17,7 @@ const Contact = () => {
                 <li><a href="mailto:marinorubianobotina@gmail.com" className="inline-flex items-center text-base text-white font-semibold py-2 px-6 bg-app-greenprimary-600 text-center rounded-full">Envíame un mensaje <FaTelegramPlane className="w-5 h-5 ml-2"/></a></li>                
 
             </ul>              
-        </article>
+        </section>
     )
 }
 

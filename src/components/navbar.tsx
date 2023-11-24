@@ -14,14 +14,14 @@ const Navbar = () => {
         i18n.changeLanguage(lang_code);
     };*/
     return (
-        <nav className='flex-flex-col bg-app-greenprimary-50 sm:grid-rows-none justify-center'>
+        <nav className='order-3 bg-app-greenprimary-50 xl:justify-center sm:justify-center sm:order-1'>
             <NavLink to='/'>
                 <h1 className='py-14 text-center border-b text-app-blue-dark text-[1.625rem] border-app-gray-100'>
                     MB
                 </h1>
             </NavLink>
             <article className='py-4'>
-                <ul className='flex flex-col gap-y-6'>
+                <ul className='flex xl:flex-col sm:flex-row gap-y-6 gap-x-6'>
                     {dataNavbar(navbarItemActive).nav.map((item) => (
                         <NavLink
                             key={item.id}

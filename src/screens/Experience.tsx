@@ -7,7 +7,7 @@ import {
 
 const Experience = () => {
     return (
-        <article className="grid col bg-app-greenprimary-50 pt-32 px-9 overflow-y-auto h-screen">
+        <section className="grid rows bg-app-greenprimary-50 pt-32 px-9 overflow-y-auto h-screen">
             <h2 className="font-inter font-bold text-[4rem] text-app-heading">Mi experiencia</h2>
             <hr className="mb-4"></hr>
             <Tab.Group>
@@ -53,7 +53,7 @@ const Experience = () => {
                 </Tab.Panels>
             </Tab.Group>            
                 
-        </article>
+        </section>
     )
 }
 

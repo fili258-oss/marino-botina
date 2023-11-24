@@ -13,27 +13,27 @@ import HomeMarino from '../assets/imgs/MarinoBotina.png';
 
 function App() { 
   return (
-    <main>
-      <div className='grid grid-cols-[100px_1fr] w-screen h-screen '>            
-      <Navbar />    
-      <section className='grid grid-cols-[50%_1fr] '>
+    <div className='grid xl:grid-cols-[90px_1fr] sm:grid-cols-[70px_1fr] w-screen h-screen '>
+      <Navbar />
+                          
+        <main className='grid grid-rows-2 xl:grid-cols-[50%_1fr] sm:grid-rows-none order-2'>
+        
+            <section className="grid rows justify-items-center sm:px-4">  
+              <ParticlesBackground/>              
+                <img src={ HomeMarino} className="xl:h-[469px] xl:w-[469px] " alt="Imagen Perfil" />
+            </section>
+                  
+              <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/aboutme' element={<Aboutme />} />
+                <Route path='/skills' element={<Skills />} />
+                <Route path='/projects' element={<Projects />} />
+                <Route path='/experience' element={<Experience />} />
+                <Route path='/contact' element={<Contact />} />
+              </Routes>
+        </main>            
       
-          <article className="grid cols justify-items-center text-center">  
-            <ParticlesBackground/>              
-              <img src={ HomeMarino} className="h-[469px] w-[469px]" alt="Imagen Perfil" />
-          </article>
-                
-            <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='/aboutme' element={<Aboutme />} />
-              <Route path='/skills' element={<Skills />} />
-              <Route path='/projects' element={<Projects />} />
-              <Route path='/experience' element={<Experience />} />
-              <Route path='/contact' element={<Contact />} />
-            </Routes>
-      </section>            
     </div>
-    </main>
     
     
     

@@ -11,7 +11,7 @@ import WordpressIcon from '../assets/imgs/WordPress.png'
 
 const Skills = () => {
     return (
-        <article className="grid col bg-app-greenprimary-50 pt-36 px-9 overflow-auto">
+        <section className="grid rows bg-app-greenprimary-50 pt-36 px-9 overflow-auto">
             <h2 className="font-inter font-bold text-[4rem] text-app-heading">Mis habilidades</h2>
             <hr></hr>
             <Tab.Group>
@@ -46,7 +46,7 @@ const Skills = () => {
                 </Tab.Panels>
             </Tab.Group>                                    
                 
-        </article>
+        </section>
     )
 }
 
