@@ -27,16 +27,16 @@ const Experience = () => {
                                 <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Agosto 2023</span>
                                 <h3 className="font-bold">Bootcamp Desarrollo FullStack</h3>
                                 <p>Participe de un bootcamp de desarrollo full stack con los stacks: Nest JS, Angular y desarrollo de aplicaciones móviles con Flutter y Dart</p>
-                            </li>                            
-                            <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
-                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Noviembre 2019 - Agosto 2020</span>
-                                <h3 className="font-bold">Técnico en desarrollo de software</h3>
-                                <p>Formación académica realizada con el Servicio Nacional de Aprendizaje SENA, en convenio con ParqueSoft Nariño</p>
-                            </li>
+                            </li>                                                        
                             <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
                                 <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Mayo - Junio 2021</span>
                                 <h3 className="font-bold">Master en PHP, SQL, POO, MVC, Laravel, Symfony y WordPress</h3>
                                 <p>Formación online a través de la academia de aprendizaje Udemy</p>
+                            </li>
+                            <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
+                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Noviembre 2019 - Agosto 2020</span>
+                                <h3 className="font-bold">Técnico en desarrollo de software</h3>
+                                <p>Formación académica realizada con el Servicio Nacional de Aprendizaje SENA, en convenio con ParqueSoft Nariño</p>
                             </li>
                         </ul>
                     </Tab.Panel>
@@ -44,13 +44,26 @@ const Experience = () => {
                         <ul className="">
                             <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
                                 <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Febrero 2024 - Enero 2026</span>
-                                <h3 className="font-bold">Desarrollador Full-Stack Findcor S.A.S</h3>
-                                <p>Estuve al cargado de brindar soporte y desarrollar nuevas funcionalidades para un sistema de transporte de carga pesada en Colombia, base de datos con Mysql, tecnologías como Vue JS, Codeigniter, PHP, Bootstrap, CSS, manejo de APIS: Twilio con WhatsApp, Siigo nube facturación electrónica y Wompi pasarelas de pago. Despliegue continuo CI/CD</p>
+                                <h3 className="font-bold">Desarrollador Full-Stack Findcor S.A.S</h3>     
+                                <p>- Desarrolle una plataforma web, para el transporte de carga pesada en Colombia, utilizando principios SOLID, conectada a un chatbot de WhatsApp, simple y con un menú fácil de utilizar, tanto para conductores como para clientes.</p>
+                                <p>- Implementé prácticas de CI/CD para mejorar la eficiencia en la entrega de software, reduciendo errores y tiempos de entrega bajando los tiempos de despliegue más de un 80%.</p>
+                                <p>- Implementé una arquitectura de microservicios, una aplicación Codeigniter, para el dashboard y una aplicación para el motor conversacional cada sistema se comunicaba mutuamente y estaba conectado a su propia base de datos y a la API de Twilio.</p>
+                                <p>- Implementé la pasarela de pagos Wompi.</p>
+                                <p>- Optimicé la conexión a la API de Siigo Nube para gestión de la facturación electrónica en los servicios ofrecidos en la plataforma, reduciendo en un 90% los errores al momento de crear facturas de venta electrónica.</p>
+                                <p>- Implementé pruebas de carga y estrés y test unitario de módulos para garantizar un correcto funcionamiento de la plataforma.</p>
+                                <p>- Desarrollé y optimicé interfaces gráficas utilizando CSS, JS y Vue js, utilizando el principio Mobile First, lo que mejoró la experiencia del usuario en un 90%.</p>
+                                <p>- Desarrollé un plugin de Wordpress para realizar la creación de Facturas de venta a través de la API de Siigo Nube, sincronización de precios, gestión de clientes, gestión de stock en inventario y encriptación de claves de autenticación.</p>
+                                <p>- Administré y desplegué aplicaciones web en servidores Ubuntu/Alma Linux y Nginx Web Server.</p>                                
                             </li>
                             <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
-                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Agosto 2020 - Diciembre 2025</span>
+                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Agosto 2020 - Diciembre 2023</span>
                                 <h3 className="font-bold">Desarrollador Full-Stack ParqueSoft Nariño</h3>
-                                <p>Participante del Equipo de estrategias STI, donde presté mis servicios como desarrollador web, en la implementación de portales web avanzados (Plataformas LMS, Tiendas Online, Integración de pasarelas de Pago y Portales de contenido dinámico y personalizado), desarrollo de plugins para Wordpress, desarrollo de sistemas web, con lenguaje de programación como PHP y su framework Laravel, manejo de bases de datos Mysql, administración de servidores, análisis y construcción de ChatBots para empresas a nivel nacional</p>
+                                <p>- Desarrollé una plataforma web LMS, Diseñada especialmente para emprendedores y empresarios del departamento de Nariño.</p>
+                                <p>- Desarrollamos la aplicación utilizando el marco Laravel + Livewire, PHP, Mysql, CSS y JS.</p>
+                                <p>- Aplicamos el patrón de arquitectura MVC para obtener una aplicación robusta, escalable y fácil de mantener, lo que mejoró la facilidad de integración de nuevos desarrolladores en el equipo en un 85%.</p>
+                                <p>- Desarrollé varios chatbots empresariales utilizando herramientas como BootPress, diseñadas específicamente para el servicio de atención al cliente, que funcionaban a través de sitios web, WhatsApp, Messenger e Instagram. Esto mejoró la tasa de respuesta en un 90 % para las empresas y emprendimientos.</p>
+                                <p>- Implementé varias plataformas de comercio electrónico personalizadas utilizando herramientas como WordPress y WooCommerce: desarrollé plugins y temas personalizados, lo que mejoró en un 95 % el proceso de facturación electrónica en ventas realizadas a través de tiendas online implementadas con WooCommerce.</p>
+                                <p>- Administré y desplegué aplicaciones web en servidores Ubuntu/Nginx Web Server.</p>
                             </li>
                             
                         </ul>                        
