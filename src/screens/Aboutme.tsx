@@ -10,7 +10,12 @@ const Aboutme = () => {
         <section className="grid rows bg-app-greenprimary-50 pt-36 px-9 overflow-y-auto">
             <h2 className="font-inter font-bold text-[4rem] text-app-heading">Sobre mí</h2>
             <hr></hr>
-            <p className="">Soy una persona  proactiva y empatica, con más de 2 años de experiencia en el diseño, desarrollo y mantenimiento de aplicaciones web y CMS, he trabajado con empresas de Nariño y de otros departamentos de Colombia. Me gusta tanto backend como el frontend, lo que me ha permitido crear interfaces de usuario atractivas y funcionales. Además, mi experiencia en frameworks web me ha permitido construir aplicaciones web dinámicas y escalables con un backend robusto.</p>
+            <p className="">Ingeniero de Software y desarrollador web Full Stack.</p>
+            <p>Me apasiona construir soluciones de software personalizadas que se adapten a las necesidades de las empresas, en mi trayecto como desarrollador web he tenido la oportunidad de trabajar con las siguientes tecnologías y lenguajes de programación: PHP, Laravel, SpringBoot, Codeigniter, Vue JS, Django, Angular, Bootsrap, jQuery.</p>
+            <p>Me especializo en el desarrollo de APIS con frameworks como: SpringBoot, Laravel, Codeigniter y Django. </p>
+            <p>Desarrollo frontend con frameworks como Vue js, Angular y Tailwind CSS.</p>            
+            <p>En mis tiempos libres disfruto leer libros, practicar natación, hacer senderismo, jugar futbol, salir a rodar en moto, compartir con mi familia y aprender nuevas tecnologías para desarrollo web 👨‍💻💻🚀</p>            
+            <p>Siempre en busca de nuevos desafíos y oportunidades para seguir aprendiendo y creciendo tanto personal como profesionalmente en el campo de desarrollo web.</p>
             <p>¡Para mi la programación es como un super poder!</p>
             <h2 className="font-inter font-bold text-[18px] py-4">Mis deportes favoritos</h2>
             <ul className="flex flex-row  gap-3 mb-4">
@@ -20,7 +25,7 @@ const Aboutme = () => {
                 <li className="border-solid border-app-greenprimary-500 border-2 rounded-lg py-4 px-4"><img src={ Swimming } className="w-[30px] h-[30px]" alt="" /></li>                                
             </ul>
             <ul className="flex flex-row text-app-greenprimary-50 gap-3 py-3">
-                <li><a download="HojaDeVidaMarinoBotina.pdf" href="https://drive.google.com/uc?export=download&id=132xxioTauvyKCMXc0ybdMrcSmfT8991x" className="inline-flex items-center  p-4 text-base text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold">Descargar CV <BsFileEarmarkArrowDownFill className="w-5 h-5 ml-4"/></a></li>                
+                <li><a download="HojaDeVidaMarinoBotina.pdf" href="https://drive.google.com/uc?export=download&id=1uR7dFbGXi14RYF6Vw1jYcb8lpKqnz9Mb" className="inline-flex items-center  p-4 text-base text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold">Descargar CV <BsFileEarmarkArrowDownFill className="w-5 h-5 ml-4"/></a></li>                
             </ul>
             
                 

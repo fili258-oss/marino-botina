@@ -19,22 +19,22 @@ const Experience = () => {
                     <Tab.Panel>
                         <ul className="">
                             <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
+                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Agosto 2021 - Agosto 2025</span>
+                                <h3 className="font-bold">Pregrado Ing de Software UCC</h3>
+                                <p>Ingeniero de Software graduado en la Universidad Cooperativa de Colombia - Campus Pasto</p>
+                            </li>
+                            <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
                                 <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Agosto 2023</span>
                                 <h3 className="font-bold">Bootcamp Desarrollo FullStack</h3>
                                 <p>Participe de un bootcamp de desarrollo full stack con los stacks: Nest JS, Angular y desarrollo de aplicaciones móviles con Flutter y Dart</p>
-                            </li>
+                            </li>                            
                             <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
-                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Ago 2021 - Actual</span>
-                                <h3 className="font-bold">Pregrado Ing de Software UCC</h3>
-                                <p>Formación académica en proceso en la Universidad Cooperativa de Colombia - Campus Pasto</p>
-                            </li>
-                            <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
-                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Nov 2019 - Ago 2020</span>
+                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Noviembre 2019 - Agosto 2020</span>
                                 <h3 className="font-bold">Técnico en desarrollo de software</h3>
                                 <p>Formación académica realizada con el Servicio Nacional de Aprendizaje SENA, en convenio con ParqueSoft Nariño</p>
                             </li>
                             <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
-                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> May - Jun 2021</span>
+                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Mayo - Junio 2021</span>
                                 <h3 className="font-bold">Master en PHP, SQL, POO, MVC, Laravel, Symfony y WordPress</h3>
                                 <p>Formación online a través de la academia de aprendizaje Udemy</p>
                             </li>
@@ -43,9 +43,14 @@ const Experience = () => {
                     <Tab.Panel>
                         <ul className="">
                             <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
-                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Agosto 2020 - Actual</span>
-                                <h3 className="font-bold">Desarrollador web ParqueSoft Nariño</h3>
-                                <p>Me encargo de la implementación de portales web e implementación de ChatBots empresariales capaces de brindar atención personalizada a los clientes </p>
+                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Febrero 2024 - Enero 2026</span>
+                                <h3 className="font-bold">Desarrollador Full-Stack Findcor S.A.S</h3>
+                                <p>Estuve al cargado de brindar soporte y desarrollar nuevas funcionalidades para un sistema de transporte de carga pesada en Colombia, base de datos con Mysql, tecnologías como Vue JS, Codeigniter, PHP, Bootstrap, CSS, manejo de APIS: Twilio con WhatsApp, Siigo nube facturación electrónica y Wompi pasarelas de pago. Despliegue continuo CI/CD</p>
+                            </li>
+                            <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
+                                <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Agosto 2020 - Diciembre 2025</span>
+                                <h3 className="font-bold">Desarrollador Full-Stack ParqueSoft Nariño</h3>
+                                <p>Participante del Equipo de estrategias STI, donde presté mis servicios como desarrollador web, en la implementación de portales web avanzados (Plataformas LMS, Tiendas Online, Integración de pasarelas de Pago y Portales de contenido dinámico y personalizado), desarrollo de plugins para Wordpress, desarrollo de sistemas web, con lenguaje de programación como PHP y su framework Laravel, manejo de bases de datos Mysql, administración de servidores, análisis y construcción de ChatBots para empresas a nivel nacional</p>
                             </li>
                             
                         </ul>                        
