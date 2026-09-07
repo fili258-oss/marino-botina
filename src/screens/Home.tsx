@@ -35,7 +35,7 @@ const Home = () => {
                         onClick={() => {
                             selectedItemNavbar(2);
                         }}
-                        className="inline-flex items-center  p-4 text-[12px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold"
+                        className="inline-flex items-center  p-4 text-[12px] md:text-[14px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold"
                         >
                         Más sobre mí
                         <BsArrowRight  className="w-5 h-5 ml-4"/>
@@ -47,7 +47,7 @@ const Home = () => {
                         onClick={() => {
                             selectedItemNavbar(3);
                         }}
-                        className="inline-flex items-center  p-4 text-[12px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold"
+                        className="inline-flex items-center  p-4 text-[12px] md:text-[14px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold"
                         >
                         Habilidades
                         <BsFillPersonCheckFill  className="w-5 h-5 ml-4"/>
