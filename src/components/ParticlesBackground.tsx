@@ -20,7 +20,7 @@ const ParticlesBackground = () => {
         options={{
             background: {
                 color: {
-                    value: "#0a192f",
+                    value: "#04114d",
                 },
             },
             fullScreen: {
@@ -53,7 +53,7 @@ const ParticlesBackground = () => {
             },
             particles: {
                 color: {
-                    value: "#2A9F55",
+                    value: "#42b883",
                 },
                 links: {
                     color: "#2A9F55",

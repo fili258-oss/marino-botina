@@ -2,6 +2,8 @@ import { NavLink } from 'react-router-dom';
 
 import { dataNavbar } from '../data/data';
 import { useNavbarStore } from '../store/navbarStore';
+import Logo from '/Favicon.png';
+
 //import { useTranslation } from 'react-i18next';
 //import { languageData } from '../data/data';
 
@@ -14,29 +16,23 @@ const Navbar = () => {
         i18n.changeLanguage(lang_code);
     };*/
     return (
-        <nav className='order-3 bg-app-greenprimary-50 xl:justify-center sm:justify-center sm:order-1'>
-            <NavLink to='/'>
-                <h1 className='py-14 text-center border-b text-app-blue-dark text-[1.625rem] border-app-gray-100'>
-                    MB
-                </h1>
+        <nav className='flex flex-col bg-app-greenprimary-50 sm:order-1'>                        
+            <NavLink to='/' className='flex flex-col border-b-2 border-app-greenprimary-600 h-[30%] justify-center items-center'>                
+                <img src={Logo} alt="Ing Marino Botina" className="w-16 h-16 mx-auto" />                
             </NavLink>
-            <article className='py-4'>
-                <ul className='flex xl:flex-col sm:flex-row gap-y-6 gap-x-6'>
-                    {dataNavbar(navbarItemActive).nav.map((item) => (
-                        <NavLink
-                            key={item.id}
-                            to={item.to}
-                            className=' flex flex-col items-center text-app-gray-700'
-                            onClick={() => {
-                                selectedItemNavbar(item.id);
-                            }}>
-                            {item.icon}
-                            
-                        </NavLink>
-                    ))}
-                </ul>
-            </article>
-            
+            <ul className='flex flex-col justify-center items-center gap-6  border-b-2 h-[70%] border-app-greenprimary-600 py-4'>
+                {dataNavbar(navbarItemActive).nav.map((item) => (
+                    <NavLink
+                        key={item.id}
+                        to={item.to}
+                        className='flex items-center text-app-greenprimary-600'
+                        onClick={() => {
+                            selectedItemNavbar(item.id);
+                        }}>
+                        {item.icon}                        
+                    </NavLink>
+                ))}
+            </ul>                        
         </nav>
     );
 }

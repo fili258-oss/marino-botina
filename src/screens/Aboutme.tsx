@@ -7,7 +7,7 @@ import { BsFileEarmarkArrowDownFill } from "react-icons/bs";
 
 const Aboutme = () => {
     return (
-        <section className="grid rows bg-app-greenprimary-50 pt-36 px-9 overflow-y-auto">
+        <section className="grid rows bg-app-greenprimary-50 pt-36 px-9">
             <h2 className="font-inter font-bold text-[4rem] text-app-heading">Sobre mí</h2>
             <hr></hr>
             <p className="">Ingeniero de Software y desarrollador web Full Stack.</p>
@@ -26,9 +26,7 @@ const Aboutme = () => {
             </ul>
             <ul className="flex flex-row text-app-greenprimary-50 gap-3 py-3">
                 <li><a download="HojaDeVidaMarinoBotina.pdf" href="https://drive.google.com/uc?export=download&id=1uR7dFbGXi14RYF6Vw1jYcb8lpKqnz9Mb" className="inline-flex items-center  p-4 text-base text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold">Descargar CV <BsFileEarmarkArrowDownFill className="w-5 h-5 ml-4"/></a></li>                
-            </ul>
-            
-                
+            </ul>                            
         </section>
 
     )
