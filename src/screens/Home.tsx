@@ -15,11 +15,11 @@ const Home = () => {
             </section>
             </article>
             <article className ="flex flex-col gap-12 p-8 bg-app-greenprimary-100/90 rounded-lg shadow-lg shadow-app-greenprimary-600/60">
-                <h2 className="font-inter font-bold text-[30px] md:text-[32px] lg:text-[38px] xl:text-[38px]  text-app-heading">¡Hola, soy Marino!</h2>
+                <h2 className="font-inter font-bold text-[30px] md:text-[32px] lg:text-[38px] xl:text-[38px]  bg-gradient-to-r from-app-blue-500 via-app-greenprimary-500 to-app-greenprimary-600 bg-clip-text text-transparent">¡Hola, soy Marino!</h2>
                 <h3 className="font-inter font-bold text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] text-app-greenprimary-600">
                 <Typewriter 
                     options={{
-                        strings: ['Desarrollo frontend con Angular', 'Desarrollo backend con Laravel','Administración de bases de datos'],
+                        strings: ['Desarrollo con Angular', 'Desarrollo con Laravel','Devops con Docker y AWS', 'Desarrollo web con Next.js'],
                         autoStart: true,
                         loop: true,
                         
@@ -35,7 +35,7 @@ const Home = () => {
                         onClick={() => {
                             selectedItemNavbar(2);
                         }}
-                        className="inline-flex items-center  p-4 text-[14px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold"
+                        className="inline-flex items-center  p-4 text-[12px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold"
                         >
                         Más sobre mí
                         <BsArrowRight  className="w-5 h-5 ml-4"/>
@@ -47,7 +47,7 @@ const Home = () => {
                         onClick={() => {
                             selectedItemNavbar(3);
                         }}
-                        className="inline-flex items-center  p-4 text-[14px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold"
+                        className="inline-flex items-center  p-4 text-[12px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold"
                         >
                         Habilidades
                         <BsFillPersonCheckFill  className="w-5 h-5 ml-4"/>
