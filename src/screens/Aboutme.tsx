@@ -7,8 +7,8 @@ import { BsFileEarmarkArrowDownFill } from "react-icons/bs";
 
 const Aboutme = () => {
     return (
-        <section className="grid rows bg-app-greenprimary-50 pt-36 px-9">
-            <h2 className="font-inter font-bold text-[4rem] text-app-heading">Sobre mí</h2>
+        <section className="grid rows bg-app-greenprimary-50 pt-36 px-9 max-w-7xl mx-auto">
+            <h2 className="font-inter font-bold text-[30px] md:text-[32px] lg:text-[38px] xl:text-[38px]  text-app-heading">Sobre mí</h2>
             <hr></hr>
             <p className="">Ingeniero de Software y desarrollador web Full Stack.</p>
             <p>Me apasiona construir soluciones de software personalizadas que se adapten a las necesidades de las empresas, en mi trayecto como desarrollador web he tenido la oportunidad de trabajar con las siguientes tecnologías y lenguajes de programación: PHP, Laravel, SpringBoot, Codeigniter, Vue JS, Django, Angular, Bootsrap, jQuery.</p>

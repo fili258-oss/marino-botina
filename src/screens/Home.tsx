@@ -10,7 +10,7 @@ const Home = () => {
                     
         <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-[50%_1fr] items-center mx-4">
             <article>
-            <section className="justify-items-center py-10">                                          
+            <section className="justify-items-center py-2">                                          
                 <img src={ HomeMarino} className="h-[200px] md:h-[270px] xl:h-[369px] w-auto" alt="Imagen Perfil" />
             </section>
             </article>
@@ -35,7 +35,7 @@ const Home = () => {
                         onClick={() => {
                             selectedItemNavbar(2);
                         }}
-                        className="inline-flex items-center  p-4 text-base text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold"
+                        className="inline-flex items-center  p-4 text-[14px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold"
                         >
                         Más sobre mí
                         <BsArrowRight  className="w-5 h-5 ml-4"/>
@@ -47,7 +47,7 @@ const Home = () => {
                         onClick={() => {
                             selectedItemNavbar(3);
                         }}
-                        className="inline-flex items-center  p-4 text-base text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold"
+                        className="inline-flex items-center  p-4 text-[14px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold"
                         >
                         Habilidades
                         <BsFillPersonCheckFill  className="w-5 h-5 ml-4"/>

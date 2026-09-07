@@ -8,7 +8,7 @@ import {
 const Experience = () => {
     return (
         <section className="grid rows bg-app-greenprimary-50 pt-32 px-9">
-            <h2 className="font-inter font-bold text-[4rem] text-app-heading">Mi experiencia</h2>
+            <h2 className="font-inter font-bold text-[30px] md:text-[32px] lg:text-[38px] xl:text-[38px]  text-app-heading">Mi experiencia</h2>
             <hr className="mb-4"></hr>
             <Tab.Group>
                 <Tab.List className="flex flex-row ">

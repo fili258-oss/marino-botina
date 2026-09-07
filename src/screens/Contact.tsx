@@ -3,9 +3,11 @@ import { FaTelegramPlane } from "react-icons/fa";
 const Contact = () => {    
     return (
         <section className="grid rows bg-app-greenprimary-50 pt-36 px-9 overflow-auto">
-            <h2 className="font-inter font-bold text-[4rem] text-app-heading">Contacto</h2>
+            <h2 className="font-inter font-bold text-[30px] md:text-[32px] lg:text-[38px] xl:text-[38px]  text-app-heading">Contacto</h2>
             <hr></hr>
-            <p>Gracias por visitarme, si crees que mis habilidades pueden contribuir a tu proyecto o empresa, puedes contactarme a través de los siguientes links de contacto: </p>                
+            <p className="text-[17px] md:text-[19px] lg:text-[21px] xl:text-[23px]">
+                Gracias por visitarme, si crees que mis habilidades pueden contribuir a tu proyecto o empresa, puedes contactarme a través de los siguientes links de contacto: 
+            </p>                
             
                        
             <ul className="flex flex-col text-app-greenprimary-50 gap-3">

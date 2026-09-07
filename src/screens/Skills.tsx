@@ -12,7 +12,7 @@ import WordpressIcon from '../assets/imgs/WordPress.png'
 const Skills = () => {
     return (
         <section className="grid rows bg-app-greenprimary-50 pt-36 px-9">
-            <h2 className="font-inter font-bold text-[4rem] text-app-heading">Mis habilidades</h2>
+            <h2 className="font-inter font-bold text-[30px] md:text-[32px] lg:text-[38px] xl:text-[38px]  text-app-heading">Mis habilidades</h2>
             <hr></hr>
             <Tab.Group>
                 <Tab.List>

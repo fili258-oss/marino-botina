@@ -15,9 +15,9 @@ function App() {
   return (    
     <div className='grid'>
       <ParticlesBackground />
-      <div className='grid grid-cols-[70px_1fr] xl:grid-cols-[90px_1fr]  w-screen h-screen '>
+      <div className='grid grid-cols-1 md:grid-cols-[90px_1fr] w-screen h-screen '>
           <Navbar />                                
-          <main className='grid grid-rows-1 order-2 overflow-y-auto h-screen'>                                      
+          <main className='grid grid-rows-1 overflow-y-auto h-screen order-2'>                                      
                 <Routes>
                   <Route path='/' element={<Home />} />
                   <Route path='/aboutme' element={<Aboutme />} />
