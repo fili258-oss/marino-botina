@@ -2,7 +2,7 @@ import { BsGeoAltFill, BsGithub, BsEnvelopeFill } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
 const Contact = () => {    
     return (
-        <section className="grid rows bg-app-greenprimary-50 pt-36 px-9 overflow-auto">
+        <section className="grid rows bg-app-greenprimary-50 px-9 py-9 my-8 max-w-[95%] mx-auto rounded-lg shadow-lg shadow-app-greenprimary-600/60">
             <h2 className="font-inter font-bold text-[30px] md:text-[32px] lg:text-[38px] xl:text-[38px]  text-app-heading">Contacto</h2>
             <hr></hr>
             <p className="text-[17px] md:text-[19px] lg:text-[21px] xl:text-[23px]">
