@@ -7,14 +7,14 @@ import {
 
 const Experience = () => {
     return (
-        <section className="grid rows bg-app-greenprimary-50 px-9 py-9 my-8 w-[95%] mx-auto rounded-lg shadow-lg shadow-app-greenprimary-600/60">
+        <section className="grid rows bg-app-greenprimary-50 px-9 py-9 my-8 w-[95%] max-w-[95%] mx-auto rounded-lg shadow-lg shadow-app-greenprimary-600/60">
             <h2 className="font-inter font-bold text-[30px] md:text-[32px] lg:text-[38px] xl:text-[38px]  text-app-heading">Mi experiencia</h2>
             <hr className="mb-4"></hr>
             
                 <Tab.Group>
-                    <Tab.List className="flex">
-                        <Tab className="basis-1/2 inline-flex ml-3 p-3 text-[24px] text-app-gray-500 border-b focus:border-app-greenprimary-400 border-app-gray-100 transition duration-200 ease-in hover:text-app-greenprimary-400 focus:text-app-greenprimary-400 focus:outline-none font-semibold"><FaRocket className="mr-3 mt-2 text-app-gray-600" />Acádemica</Tab>
-                        <Tab className="basis-1/2 inline-flex ml-3 p-3 text-[24px] text-app-gray-500 border-b focus:border-app-greenprimary-400 border-app-gray-100 transition duration-200 ease-in hover:text-app-greenprimary-400 focus:text-app-greenprimary-400 focus:outline-none font-semibold"><BsBriefcaseFill className="mr-3 mt-2 text-app-gray-600" />Laboral</Tab>                    
+                    <Tab.List className="flex flex-col md:flex-row">
+                        <Tab className="basis-1/2 inline-flex p-3 text-[24px] text-app-gray-500 border-b focus:border-app-greenprimary-400 border-app-gray-100 transition duration-200 ease-in hover:text-app-greenprimary-400 focus:text-app-greenprimary-400 focus:outline-none font-semibold"><FaRocket className="mr-3 mt-2 text-app-gray-600" />Acádemica</Tab>
+                        <Tab className="basis-1/2 inline-flex p-3 text-[24px] text-app-gray-500 border-b focus:border-app-greenprimary-400 border-app-gray-100 transition duration-200 ease-in hover:text-app-greenprimary-400 focus:text-app-greenprimary-400 focus:outline-none font-semibold"><BsBriefcaseFill className="mr-3 mt-2 text-app-gray-600" />Laboral</Tab>                    
                     </Tab.List>
                     <Tab.Panels className="mt-3 p-4 mb-20">
                         <Tab.Panel>
