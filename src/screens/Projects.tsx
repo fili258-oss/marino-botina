@@ -1,6 +1,6 @@
 import Unimetrics  from '../assets/imgs/SoftwareUnimetricsUCCV2.jpg';
 import PortalHeroica  from '../assets/imgs/PortalWebCervezaHeroica.jpg';
-import PortadaBlueStudies  from '../assets/imgs/Projects/PortadaBlueStudies.avif';
+import PortadaBlueStudies  from '../assets/imgs/projects/PortadaBlueStudies.avif';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
