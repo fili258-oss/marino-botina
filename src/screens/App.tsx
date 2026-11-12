@@ -13,11 +13,11 @@ import ParticlesBackground from '../components/ParticlesBackground';
 
 function App() { 
   return (    
-    <div className='grid'>
+    <div>
       <ParticlesBackground />
-      <div className='grid grid-cols-1 md:grid-cols-[90px_1fr] w-screen h-screen '>
+      <div className='grid grid-cols-1 md:grid-cols-[90px_1fr]'>
           <Navbar />                                
-          <main className='grid grid-rows-1 overflow-y-auto h-screen order-2'>                                      
+          <main className='grid grid-rows-1 order-2'>                                      
                 <Routes>
                   <Route path='/' element={<Home />} />
                   <Route path='/aboutme' element={<Aboutme />} />
