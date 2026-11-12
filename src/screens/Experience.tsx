@@ -44,7 +44,7 @@ const Experience = () => {
                         <Tab.Panel>
                             <ul className="block">
                                 <li className="bg-app-white rounded-lg p-4 mt-4 mb-4">
-                                    <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Febrero 2024 - Enero 2026</span>
+                                    <span className="flex flex-line text-app-gray-600"><BsFillCalendar2CheckFill className="mr-3 mt-1 text-app-gray-600"/> Febrero 2024 - Febrero 2026</span>
                                     <h3 className="font-bold">Desarrollador Full-Stack Findcor S.A.S</h3>     
                                     <p>- Desarrolle una plataforma web, para el transporte de carga pesada en Colombia, utilizando principios SOLID, conectada a un chatbot de WhatsApp, simple y con un menú fácil de utilizar, tanto para conductores como para clientes.</p>
                                     <p>- Implementé prácticas de CI/CD para mejorar la eficiencia en la entrega de software, reduciendo errores y tiempos de entrega bajando los tiempos de despliegue más de un 80%.</p>
