@@ -16,7 +16,7 @@ const Navbar = () => {
         i18n.changeLanguage(lang_code);
     };*/
     return (
-        <nav className='flex flex-col h-full max-h-screen min-h-screen items-center justify-around p-2 md:flex-col bg-app-greenprimary-50 sticky top-0 z-50 md:order-1'>                        
+        <nav className='flex flex-row h-full md:max-h-screen md:min-h-screen items-center justify-around p-2 md:flex-col bg-app-greenprimary-50 sticky top-0 z-50 md:order-1'>                        
             <NavLink to='/' className='flex flex-col md:flex-col h-full md:h-[30%]  md:justify-center'>                
                 <img src={Logo} alt="Ing Marino Botina" className="w-14 md:w-16 h-14 md:h-16 mx-auto" />                
             </NavLink>

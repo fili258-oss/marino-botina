@@ -2,8 +2,6 @@ import Unimetrics  from '../assets/imgs/SoftwareUnimetricsUCCV2.jpg';
 import PortalHeroica  from '../assets/imgs/PortalWebCervezaHeroica.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-
-
 import 'swiper/css';
 import 'swiper/css/navigation';
 
