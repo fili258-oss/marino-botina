@@ -3,6 +3,7 @@ import PortadaBlueStudies  from '../assets/imgs/projects/PortadaBlueStudies.avif
 import PortadaPasesBoda  from '../assets/imgs/projects/PasesBodasAngeloCaro.png';
 import PortadaSistemaQRS  from '../assets/imgs/projects/SistemaQRSBlueStudies.avif';
 import RinconMascotas  from '../assets/imgs/projects/RinconDeLasMascotas.avif';
+import DltVirtualTraining  from '../assets/imgs/projects/DltVirtualTraining.avif';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -116,6 +117,24 @@ const Projects = () => {
                                 <li className="rounded-full bg-app-greenprimary-400 px-4 py-1 ml-2 text-base text-white">JavaScript</li>
                             </ul>
                             <a href='https://bluestudies.com/' target='__blank' className="mt-4 bg-app-greenprimary-600 hover:bg-app-greenprimary-700 text-white font-bold py-2 px-4 rounded-full w-auto">Ver proyecto</a>
+                    </article>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <article className={classCardProjects}>
+                            <img className="w-full rounded-xl  sm:h-48 object-cover" src={ DltVirtualTraining }  alt="article" />
+                            <li className="py-2">
+                            <h3 className="text-[18px] font-semibold text-slate-800">Dlt Virtual Training</h3>
+                            <p className="text-[15px] text-gray-500">Plataforma web LMS para la gestión de cursos virtuales para la empresa Drummond LTD</p>
+                            </li>
+                            <ul className="flex flex-wrap gap-2">
+                                <li className="rounded-full bg-app-greenprimary-400 px-4 py-1 text-base text-white">Laravel</li>
+                                <li className="rounded-full bg-app-greenprimary-400 px-4 py-1 ml-2 text-base text-white">Livewire</li>                                
+                                <li className="rounded-full bg-app-greenprimary-400 px-4 py-1 ml-2 text-base text-white">Tailwind CSS</li>                                
+                                <li className="rounded-full bg-app-greenprimary-400 px-4 py-1 ml-2 text-base text-white">Nwidart</li>                                
+                                <li className="rounded-full bg-app-greenprimary-400 px-4 py-1 ml-2 text-base text-white">AWS Bucket S3</li>                                
+                                <li className="rounded-full bg-app-greenprimary-400 px-4 py-1 ml-2 text-base text-white">JavaScript</li>
+                            </ul>
+                            <a href='https://dltdvirtualtraining.co/login' target='__blank' className="mt-4 bg-app-greenprimary-600 hover:bg-app-greenprimary-700 text-white font-bold py-2 px-4 rounded-full w-auto">Ver proyecto</a>
                     </article>
                 </SwiperSlide>
                 
