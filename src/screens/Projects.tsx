@@ -79,7 +79,7 @@ const Projects = () => {
                                 <li className="rounded-full bg-app-greenprimary-400 px-4 py-1 ml-2 text-base text-white">Vercel</li>
                                 <li className="rounded-full bg-app-greenprimary-400 px-4 py-1 ml-2 text-base text-white">JavaScript</li>
                             </ul>
-                            <a href='https://bluestudies.com/' target='__blank' className="mt-4 bg-app-greenprimary-600 hover:bg-app-greenprimary-700 text-white font-bold py-2 px-4 rounded-full w-auto">Ver proyecto</a>
+                            <a href='https://boda-pases.vercel.app/' target='__blank' className="mt-4 bg-app-greenprimary-600 hover:bg-app-greenprimary-700 text-white font-bold py-2 px-4 rounded-full w-auto">Ver proyecto</a>
                     </article>
                 </SwiperSlide> 
                 <SwiperSlide>
