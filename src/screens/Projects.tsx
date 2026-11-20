@@ -14,7 +14,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 
-import { Autoplay, Navigation, Pagination, A11y } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 
 const classCardProjects = 'flex flex-wrap md:flex lg:flex items-center pt-4 pb-4 bg-app-greenprimary-200 h-full p-4 rounded-lg shadow-lg shadow-app-greenprimary-600/40 gap-2';
@@ -24,7 +24,7 @@ const Projects = () => {
             <h2 className="font-inter font-bold text-[30px] md:text-[32px] lg:text-[38px] xl:text-[38px] text-app-heading">Proyectos</h2>
             <hr></hr>
                                                    
-            <Swiper spaceBetween={30} centeredSlides={true} autoplay={{ delay: 2500, disableOnInteraction: false,}} slidesPerView={1} breakpoints={{ 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }} pagination={{ clickable: true }} modules={[Autoplay, Navigation, Pagination, A11y]} className="flex w-[100%]">                
+            <Swiper rewind={true} spaceBetween={30} autoplay={{ delay: 2500, disableOnInteraction: true,}} slidesPerView={1} breakpoints={{ 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }} pagination={{ clickable: true }} modules={[Autoplay, Navigation, Pagination]} className="flex w-[100%]">                
                 <SwiperSlide>
                     <article className={classCardProjects}>
                             <img className="w-full rounded-xl sm:h-48 object-cover" src={ Unimetrics }  alt="article" />
