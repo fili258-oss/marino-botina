@@ -33,7 +33,7 @@ const Aboutme = () => {
                                                         
                     </ul>                                        
                     <ul className="flex text-app-greenprimary-50 gap-3 py-3">
-                        <li><a download="HojaDeVidaMarinoBotina.pdf" href="https://drive.google.com/uc?export=download&id=1uR7dFbGXi14RYF6Vw1jYcb8lpKqnz9Mb" className="inline-flex items-center  p-4 text-[12px] md:text-[14px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold">Descargar CV <BsFileEarmarkArrowDownFill className="w-5 h-5 ml-4"/></a></li>                
+                        <li><a download="HojaDeVidaMarinoBotina.pdf" href="https://drive.google.com/uc?export=download&id=1mYEM5u6DJhjDQ_m-EPzbjC0c1AqI8PPG" className="inline-flex items-center  p-4 text-[12px] md:text-[14px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold">Descargar CV <BsFileEarmarkArrowDownFill className="w-5 h-5 ml-4"/></a></li>                
                     </ul>
                 </article>
                 <article className="flex justify-center p-4 lg:p-10 order-1 lg:order-1">
