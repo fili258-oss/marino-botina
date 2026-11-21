@@ -65,7 +65,7 @@ export const dataNavbar = (navItem: number): NavbarType => {
             },
             {
               id: 4,
-              title: 'habilidades',
+              title: 'Habilidades',
               icon: (
                 <BsFillPersonCheckFill 
                   className={navItem === 4 ? 'text-app-blue-500 w-[32px] h-[32px]' : 'w-[32px] h-[32px]'}
