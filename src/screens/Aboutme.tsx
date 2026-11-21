@@ -3,6 +3,8 @@ import Volleybol from "../assets/imgs/volley-ball.svg";
 import Football from "../assets/imgs/football.svg";
 import Swimming from "../assets/imgs/swimming.svg";
 import SobreMi from "../assets/imgs/MiExperiencia.png";
+// @ts-ignore Tooltip is a JavaScript component without a TypeScript declaration.
+import Tooltip from '../components/shared/Tooltip';
 
 import { BsFileEarmarkArrowDownFill } from "react-icons/bs";
 
@@ -25,13 +27,20 @@ const Aboutme = () => {
                     <ul className="flex flex-wrap md:flex items-center gap-3 mb-4 mt-4">
                         <h2 className="font-inter font-bold text-[18px] py-4">Mis deportes favoritos:</h2>
                         <div className="flex flex-wrap gap-2">
-                            <li className="border-solid border-app-greenprimary-500 border-2 rounded-full py-2 px-2"><img src={ Senderismo } className="w-[25px] h-[25px]" alt="" /></li>
-                            <li className="border-solid border-app-greenprimary-500 border-2 rounded-full py-2 px-2"><img src={ Volleybol } className="w-[25px] h-[25px]" alt="" /></li>
-                            <li className="border-solid border-app-greenprimary-500 border-2 rounded-full py-2 px-2"><img src={ Football } className="w-[25px] h-[25px]" alt="" /></li>
-                            <li className="border-solid border-app-greenprimary-500 border-2 rounded-full py-2 px-2"><img src={ Swimming } className="w-[25px] h-[25px]" alt="" /></li>
+                            <Tooltip content={<div>Senderismo</div>} placement="top">
+                                <li className="border-solid cursor-pointer border-app-greenprimary-500 border-2 rounded-full py-2 px-2"><img src={ Senderismo } className="w-[25px] h-[25px]" alt="" /></li>
+                            </Tooltip>
+                            <Tooltip content={<div>Volleybol</div>} placement="top">
+                                <li className="border-solid cursor-pointer border-app-greenprimary-500 border-2 rounded-full py-2 px-2"><img src={ Volleybol } className="w-[25px] h-[25px]" alt="" /></li>
+                            </Tooltip>
+                            <Tooltip content={<div>Fútbol</div>} placement="top">
+                                <li className="border-solid cursor-pointer border-app-greenprimary-500 border-2 rounded-full py-2 px-2"><img src={ Football } className="w-[25px] h-[25px]" alt="" /></li>
+                            </Tooltip>
+                            <Tooltip content={<div>Natación</div>} placement="top">
+                                <li className="border-solid cursor-pointer border-app-greenprimary-500 border-2 rounded-full py-2 px-2"><img src={ Swimming } className="w-[25px] h-[25px]" alt="" /></li>
+                            </Tooltip>
                         </div>
-                                                        
-                    </ul>                                        
+                    </ul>                                      
                     <ul className="flex text-app-greenprimary-50 gap-3 py-3">
                         <li><a download="HojaDeVidaMarinoBotina.pdf" href="https://drive.google.com/uc?export=download&id=1mYEM5u6DJhjDQ_m-EPzbjC0c1AqI8PPG" className="inline-flex items-center  p-4 text-[12px] md:text-[14px] text-white shadow-md transition duration-200 ease-in hover:bg-app-greenprimary-400 focus:bg-app-greenprimary-400 focus:outline-none bg-app-greenprimary-600 text-center rounded-full font-semibold">Descargar CV <BsFileEarmarkArrowDownFill className="w-5 h-5 ml-4"/></a></li>                
                     </ul>

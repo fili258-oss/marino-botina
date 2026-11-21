@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 const OFFSET = 8;
 
 const getTooltipStyle = (placement, triggerRect, tooltipRect) => {
-    if (!triggerRect || !tooltipRect) return { top: 0, left: 0 };
+    if (!triggerRect || !tooltipRect) return null;
 
     const { top, left, right, bottom, width, height } = triggerRect;
     const { width: tw, height: th } = tooltipRect;
@@ -32,22 +32,33 @@ const getTooltipStyle = (placement, triggerRect, tooltipRect) => {
     return placements[placement] ?? placements.right;
 };
 
+/**
+ * @typedef {Object} TooltipProps
+ * @property {import("react").ReactNode} children
+ * @property {import("react").ReactNode} content
+ * @property {"top" | "bottom" | "left" | "right"} [placement="right"]
+ */
+
+/** @param {TooltipProps} props */
 const Tooltip = ({ children, content, placement = "right" }) => {
-    const [visible, setVisible] = useState(false);
-    const [style, setStyle] = useState({});
     const triggerRef = useRef(null);
     const tooltipRef = useRef(null);
+    const [visible, setVisible] = useState(false);
+    const [style, setStyle] = useState(null); // null = aún no calculado
 
     const updatePosition = useCallback(() => {
         if (!triggerRef.current || !tooltipRef.current) return;
         const triggerRect = triggerRef.current.getBoundingClientRect();
         const tooltipRect = tooltipRef.current.getBoundingClientRect();
-        setStyle(getTooltipStyle(placement, triggerRect, tooltipRect));
+        const newStyle = getTooltipStyle(placement, triggerRect, tooltipRect);
+        if (newStyle) setStyle(newStyle);
     }, [placement]);
 
     useEffect(() => {
-        if (!visible) return;
-        // Doble rAF para asegurar que el tooltip ya tiene dimensiones
+        if (!visible) {
+            setStyle(null); // Resetear al ocultar
+            return;
+        }
         const raf = requestAnimationFrame(() => {
             requestAnimationFrame(updatePosition);
         });
@@ -77,9 +88,12 @@ const Tooltip = ({ children, content, placement = "right" }) => {
                         role="tooltip"
                         style={{
                             position: "absolute",
-                            top: style.top ?? 0,
-                            left: style.left ?? 0,
+                            top: style?.top ?? 0,
+                            left: style?.left ?? 0,
                             pointerEvents: "none",
+                            // Invisible hasta tener coordenadas reales
+                            opacity: style ? 1 : 0,
+                            transition: "opacity 0.1s ease",
                         }}
                         className="z-50 bg-app-greenprimary-600 text-white text-sm rounded py-1 px-2 shadow-lg whitespace-nowrap"
                     >
